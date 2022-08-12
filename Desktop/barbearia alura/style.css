@@ -1,42 +1,148 @@
-#banner{
-    width: 100%;
+header{
+    background: #bbbb;
+    padding: 20px 0;
 }
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
-.titulo-principal {
-    padding-left: 20px;
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
-.titulo-centralizado {
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-p {
-    text-align: center;
+.produtos li:hover{
+    border-color: #c78c19;
+    
 }
-#missao{
-    font-size: 20px;
+
+.produtos li:active{
+border-color: #088C19;
 }
-em strong {
-    color: #FF0000;
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
-.itens{
-    font-style: italic;
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
 }
-.beneficios {
-    background: #fff;
-    padding: 20px;
+
+.produto-descricao{
+font-size: 18px;
+}
+
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 
 }
-.titulo-centralizado {
-    text-align: center
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0 ;
 }
-.imagembeneficios {
-width: 50%;
+
+main{
+    width: 940px;
+    margin: 0 auto;
 }
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form label, form p {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.radio {
+    display: flex
+}
+
+.radio-button {
+    width: initial;
+    padding: 0;
+    margin: 0 12px;
+}
+
+.checkbox {
+    display: flex;
+    margin: 20px 0;
+}
+
