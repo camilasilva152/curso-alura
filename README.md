@@ -40,3 +40,8 @@ stong: deixar o texto em negrito
 class : as classes são uma forma de identificar um grupo de elementos.
 
 id: As ids são uma forma de identificar um elemento, e devem ser ÚNICAS para cada elemento.
+
+
+
+![image](https://user-images.githubusercontent.com/98497787/185205459-911e1097-9e77-457a-81cd-d436c89df9d6.png)
+
