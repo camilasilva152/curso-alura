@@ -1,7 +1,5 @@
 # TAGS USADAS
 
-na barbearia alura:
-
 header: Cabeçalho
 
 h1: dentro do cabeçalho, representando o título da página.
